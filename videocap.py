@@ -35,7 +35,7 @@ print h
 print s
 print v
 cv2.namedWindow('Frame')
-cv2.createTrackbar('Thickness', 'Frame', 0, 20, nothing)
+cv2.createTrackbar('Thickness', 'Frame', 0, 22, nothing)
 cv2.createTrackbar('Red      ', 'Frame',0,255,nothing)
 cv2.createTrackbar('Green    ', 'Frame',0,255,nothing)
 cv2.createTrackbar('Blue     ', 'Frame',0,255,nothing)
